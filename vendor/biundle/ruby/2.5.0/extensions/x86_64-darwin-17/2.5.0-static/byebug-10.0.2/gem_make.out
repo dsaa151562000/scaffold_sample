@@ -1,0 +1,19 @@
+current directory: /Users/suzukiyoshiharu/Desktop/dev/scaffold_sample/vendor/biundle/ruby/2.5.0/gems/byebug-10.0.2/ext/byebug
+/Users/suzukiyoshiharu/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20181014-34311-1e43a56.rb extconf.rb
+creating Makefile
+
+current directory: /Users/suzukiyoshiharu/Desktop/dev/scaffold_sample/vendor/biundle/ruby/2.5.0/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/suzukiyoshiharu/Desktop/dev/scaffold_sample/vendor/biundle/ruby/2.5.0/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/suzukiyoshiharu/Desktop/dev/scaffold_sample/vendor/biundle/ruby/2.5.0/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20181014-34311-1pymuf4/byebug

@@ -1,0 +1,15 @@
+current directory: /Users/suzukiyoshiharu/Desktop/dev/scaffold_sample/vendor/biundle/ruby/2.5.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+/Users/suzukiyoshiharu/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20181014-34311-h0n1v1.rb extconf.rb
+creating Makefile
+
+current directory: /Users/suzukiyoshiharu/Desktop/dev/scaffold_sample/vendor/biundle/ruby/2.5.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /Users/suzukiyoshiharu/Desktop/dev/scaffold_sample/vendor/biundle/ruby/2.5.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/suzukiyoshiharu/Desktop/dev/scaffold_sample/vendor/biundle/ruby/2.5.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20181014-34311-bbp4o
