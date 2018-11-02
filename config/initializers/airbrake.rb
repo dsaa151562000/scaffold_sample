@@ -14,7 +14,6 @@ Airbrake.configure do |c|
   # https://github.com/airbrake/airbrake-ruby#project_id--project_key
   c.project_id = 201874
   c.project_key = '8a1ebfd3f8a3887ef880c4c8d0e443d3'
-
   # Configures the root directory of your project. Expects a String or a
   # Pathname, which represents the path to your project. Providing this option
   # helps us to filter out repetitive data from backtrace frames and link to
