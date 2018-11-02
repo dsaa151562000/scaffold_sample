@@ -1,12 +1,3 @@
-require 'airbrake-ruby'
-
-# Every Airbrake notifier must configure
-# two options: `project_id` and `project_key`.
-Airbrake.configure do |c|
-  c.project_id = 201874
-  c.project_key = '8a1ebfd3f8a3887ef880c4c8d0e443d3'
-end
-
 namespace :rake_sample do
   desc "rake_sample"
   task :sample do
