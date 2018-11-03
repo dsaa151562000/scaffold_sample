@@ -4,6 +4,7 @@ class UsersController < ApplicationController
   # GET /users
   # GET /users.json
   def index
+    zero
     @users = User.all
   end
 
@@ -58,6 +59,16 @@ class UsersController < ApplicationController
     respond_to do |format|
       format.html { redirect_to users_url, notice: 'User was successfully destroyed.' }
       format.json { head :no_content }
+    end
+  end
+
+  def zero
+    begin
+      1/0
+    rescue ZeroDivisionError => ex
+      params = { email: 'john@example.com', password:'1234567'}
+
+      Airbrake.notify('Controllerの例外だ！!', params,)
     end
   end
 

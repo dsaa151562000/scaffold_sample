@@ -44,7 +44,8 @@ Airbrake.configure do |c|
   # Airbrake. By default, all "password" attributes will have their contents
   # replaced.
   # https://github.com/airbrake/airbrake-ruby#blacklist_keys
-  c.blacklist_keys = [/password/i, /authorization/i]
+  #c.blacklist_keys = [:time,/password/i, /authorization/i]
+  c.blacklist_keys = [:email, /credit/i, 'password']
 
   # Alternatively, you can integrate with Rails' filter_parameters.
   # Read more: https://goo.gl/gqQ1xS
